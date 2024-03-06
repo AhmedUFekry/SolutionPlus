@@ -31,7 +31,7 @@ class xipExamble: UIView {
             Bundle.main.loadNibNamed("xipExamble", owner: self, options: nil)
             addSubview(contentView)
             contentView.frame = self.bounds
-            contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+            contentView.backgroundColor = PaletteHelper.blue.color
         }
 
 }
