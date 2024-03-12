@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import uiPackage
 class xipExamble: UIView {
     /*
     // Only override draw() if you perform custom drawing.
@@ -15,6 +15,7 @@ class xipExamble: UIView {
         // Drawing code
     }
     */
+    @IBOutlet weak var uiLabel: UILabel!
     @IBOutlet var contentView: UIView!
     override init(frame: CGRect) {
             super.init(frame: frame)
@@ -29,6 +30,7 @@ class xipExamble: UIView {
         
         private func configureView() {
             Bundle.main.loadNibNamed("xipExamble", owner: self, options: nil)
+            uiLabel.setCustomTextColor(PaletteHelper.white.color)
             addSubview(contentView)
             contentView.frame = self.bounds
             contentView.backgroundColor = PaletteHelper.blue.color

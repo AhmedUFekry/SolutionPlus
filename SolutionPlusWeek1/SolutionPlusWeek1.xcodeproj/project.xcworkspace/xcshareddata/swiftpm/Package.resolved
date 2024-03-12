@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-ui-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AhmedUFekry/Swift-UI-Package.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c8d426c3da0556749e33415abb19156a65910ae9"
+      }
+    }
+  ],
+  "version" : 2
+}

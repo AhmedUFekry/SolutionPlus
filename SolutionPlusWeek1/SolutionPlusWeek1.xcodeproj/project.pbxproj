@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C864AD772BA0A51E007A41B6 /* xipExamble.xib in Resources */ = {isa = PBXBuildFile; fileRef = C864AD762BA0A51E007A41B6 /* xipExamble.xib */; };
+		C864AD7A2BA0A60E007A41B6 /* uiPackage in Frameworks */ = {isa = PBXBuildFile; productRef = C864AD792BA0A60E007A41B6 /* uiPackage */; };
 		C88B9A0E2B977401002E2D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B9A0D2B977401002E2D2B /* AppDelegate.swift */; };
 		C88B9A102B977401002E2D2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B9A0F2B977401002E2D2B /* SceneDelegate.swift */; };
 		C88B9A122B977401002E2D2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B9A112B977401002E2D2B /* ViewController.swift */; };
@@ -17,7 +19,6 @@
 		C88B9A2F2B977404002E2D2B /* SolutionPlusWeek1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B9A2E2B977404002E2D2B /* SolutionPlusWeek1UITests.swift */; };
 		C88B9A312B977404002E2D2B /* SolutionPlusWeek1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B9A302B977404002E2D2B /* SolutionPlusWeek1UITestsLaunchTests.swift */; };
 		C88B9A3F2B977661002E2D2B /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B9A3E2B977661002E2D2B /* ColorHelper.swift */; };
-		C88B9A412B977807002E2D2B /* xipExamble.xib in Resources */ = {isa = PBXBuildFile; fileRef = C88B9A402B977807002E2D2B /* xipExamble.xib */; };
 		C88B9A432B977916002E2D2B /* xipExamble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B9A422B977916002E2D2B /* xipExamble.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C864AD762BA0A51E007A41B6 /* xipExamble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xipExamble.xib; sourceTree = "<group>"; };
 		C88B9A0A2B977401002E2D2B /* SolutionPlusWeek1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolutionPlusWeek1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88B9A0D2B977401002E2D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88B9A0F2B977401002E2D2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +55,6 @@
 		C88B9A2E2B977404002E2D2B /* SolutionPlusWeek1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionPlusWeek1UITests.swift; sourceTree = "<group>"; };
 		C88B9A302B977404002E2D2B /* SolutionPlusWeek1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionPlusWeek1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C88B9A3E2B977661002E2D2B /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
-		C88B9A402B977807002E2D2B /* xipExamble.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = xipExamble.xib; sourceTree = "<group>"; };
 		C88B9A422B977916002E2D2B /* xipExamble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xipExamble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C864AD7A2BA0A60E007A41B6 /* uiPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +84,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C82115432BA0A201001C262A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C88B9A0D2B977401002E2D2B /* AppDelegate.swift */,
+				C88B9A0F2B977401002E2D2B /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C82115442BA0A23F001C262A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C88B9A112B977401002E2D2B /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C82115452BA0A25B001C262A /* XipView */ = {
+			isa = PBXGroup;
+			children = (
+				C864AD762BA0A51E007A41B6 /* xipExamble.xib */,
+				C88B9A422B977916002E2D2B /* xipExamble.swift */,
+			);
+			path = XipView;
+			sourceTree = "<group>";
+		};
+		C864AD742BA0A2A9007A41B6 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				C88B9A3E2B977661002E2D2B /* ColorHelper.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		C864AD752BA0A2D9007A41B6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C88B9A162B977403002E2D2B /* Assets.xcassets */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		C88B9A012B977401002E2D2B = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +149,14 @@
 		C88B9A0C2B977401002E2D2B /* SolutionPlusWeek1 */ = {
 			isa = PBXGroup;
 			children = (
-				C88B9A0D2B977401002E2D2B /* AppDelegate.swift */,
-				C88B9A0F2B977401002E2D2B /* SceneDelegate.swift */,
-				C88B9A112B977401002E2D2B /* ViewController.swift */,
-				C88B9A132B977401002E2D2B /* Main.storyboard */,
-				C88B9A162B977403002E2D2B /* Assets.xcassets */,
-				C88B9A182B977403002E2D2B /* LaunchScreen.storyboard */,
 				C88B9A1B2B977403002E2D2B /* Info.plist */,
-				C88B9A3E2B977661002E2D2B /* ColorHelper.swift */,
-				C88B9A402B977807002E2D2B /* xipExamble.xib */,
-				C88B9A422B977916002E2D2B /* xipExamble.swift */,
+				C82115432BA0A201001C262A /* Core */,
+				C82115442BA0A23F001C262A /* View */,
+				C88B9A132B977401002E2D2B /* Main.storyboard */,
+				C864AD752BA0A2D9007A41B6 /* Utilities */,
+				C88B9A182B977403002E2D2B /* LaunchScreen.storyboard */,
+				C864AD742BA0A2A9007A41B6 /* DesignSystem */,
+				C82115452BA0A25B001C262A /* XipView */,
 			);
 			path = SolutionPlusWeek1;
 			sourceTree = "<group>";
@@ -152,6 +194,9 @@
 			dependencies = (
 			);
 			name = SolutionPlusWeek1;
+			packageProductDependencies = (
+				C864AD792BA0A60E007A41B6 /* uiPackage */,
+			);
 			productName = SolutionPlusWeek1;
 			productReference = C88B9A0A2B977401002E2D2B /* SolutionPlusWeek1.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +269,9 @@
 				Base,
 			);
 			mainGroup = C88B9A012B977401002E2D2B;
+			packageReferences = (
+				C864AD782BA0A60E007A41B6 /* XCRemoteSwiftPackageReference "Swift-UI-Package" */,
+			);
 			productRefGroup = C88B9A0B2B977401002E2D2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -241,8 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C88B9A1A2B977403002E2D2B /* LaunchScreen.storyboard in Resources */,
+				C864AD772BA0A51E007A41B6 /* xipExamble.xib in Resources */,
 				C88B9A172B977403002E2D2B /* Assets.xcassets in Resources */,
-				C88B9A412B977807002E2D2B /* xipExamble.xib in Resources */,
 				C88B9A152B977401002E2D2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +662,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C864AD782BA0A60E007A41B6 /* XCRemoteSwiftPackageReference "Swift-UI-Package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AhmedUFekry/Swift-UI-Package.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C864AD792BA0A60E007A41B6 /* uiPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C864AD782BA0A60E007A41B6 /* XCRemoteSwiftPackageReference "Swift-UI-Package" */;
+			productName = uiPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C88B9A022B977401002E2D2B /* Project object */;
 }

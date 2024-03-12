@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="xipExamble" customModule="SolutionPlusWeek1" customModuleProvider="target">
             <connections>
                 <outlet property="contentView" destination="iN0-l3-epB" id="R4a-as-Tjl"/>
+                <outlet property="uiLabel" destination="v9r-dl-4Et" id="Dkm-Pk-1sQ"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
